@@ -132,7 +132,7 @@
 /* iPhone 6 in landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
   .arrow-up::after {
-    margin-left: -9px;
+    margin-left: 0px;
     margin-top: 0px;
     top: -20px;
     font-size: 48px;
@@ -144,7 +144,7 @@
   .arrow-down::after {
     font-size: 48px;
     line-height: 0px;
-    margin-left: -9px;
+    margin-left: 0px;
     margin-top: 0px;
     top: 20px;
   }

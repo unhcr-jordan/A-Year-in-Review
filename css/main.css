@@ -57,7 +57,7 @@ p {
   color: #666666;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
 }
 /* ==========================================================================
@@ -150,7 +150,7 @@ p {
 }
 .arrow-up {
   left: 50%;
-  margin-left: 0px;
+  margin-left: -100px;
   border-width: 100px 100px 0px 100px;
   border-color: rgba(0, 153, 153, 0.2) transparent transparent transparent;
   position: absolute;
@@ -172,14 +172,14 @@ p {
   font-size: 100px;
   position: relative;
   line-height: 0px;
-  margin-left: 0px;
+  margin-left: -28px;
   margin-top: 0px;
-  top: 0px;
+  top: -20px;
 }
 .arrow-down {
   left: 50%;
   bottom: 0%;
-  margin-left: 0px;
+  margin-left: -100px;
   border-width: 0px 100px 100px 100px;
   border-color: transparent transparent rgba(255, 102, 102, 0.2) transparent;
   position: absolute;
@@ -200,7 +200,7 @@ p {
   font-size: 100px;
   position: relative;
   line-height: 0px;
-  margin-left: 0px;
+  margin-left: -28px;
   margin-top: 0px;
   top: 20px;
 }
@@ -282,7 +282,7 @@ p {
 #intro h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 72px;
+  font-size: 82px;
   line-height: 60px;
   color: #333333;
   margin: 0px 0px 15px 0px;
@@ -290,14 +290,14 @@ p {
 #intro h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 36px;
+  font-size: 56px;
   color: #009999;
   margin: 10px 0px;
 }
 #intro h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 44px;
   color: #ff6666;
   margin: 0;
 }
@@ -315,7 +315,7 @@ ul.items li {
   width: 130px;
 }
 ul.items li .initials {
-  font-size: 36px;
+  font-size: 44px;
   line-height: 100px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -328,8 +328,8 @@ ul.items li .initials {
 }
 ul.items li p {
   color: #666666;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 34px;
+  line-height: 34px;
 }
 ul.items li a {
   color: #ff6666;
@@ -538,23 +538,6 @@ ul.items li:nth-child(even) h3 {
 .negative ol li {
   color: #fff;
 }
-#sample-section-01 .wrap-image {
-  background: url(../img/slide-sample-01.jpg) center center no-repeat;
-  background-size: cover;
-}
-#sample-section-02 .wrap-image {
-  background: url(../img/slide-sample-03.jpg) center center no-repeat;
-  background-size: cover;
-}
-#sample-section-03 .wrap-image.overlay:before {
-  background: url(../img/slide-sample-04.jpg) center center no-repeat;
-  background-size: cover;
-}
-#sample-section-03 .wrap-image.overlay {
-  background-color: #ff3300;
-}
-
-
 
 #section-01 .wrap-image.overlay:before {
   background: url(../img/img1.jpg) center center no-repeat;
@@ -581,6 +564,13 @@ ul.items li:nth-child(even) h3 {
   background: url(../img/img4.jpg) center center no-repeat;
   background-size: cover;}
 #section-04 .wrap-image.overlay {
+  background-color: #000000;
+}
+
+#section-04a .wrap-image.overlay:before {
+  background: url(../img/img4a.jpg) center center no-repeat;
+  background-size: cover;}
+#section-04a .wrap-image.overlay {
   background-color: #000000;
 }
 
