@@ -141,7 +141,7 @@ p {
    Structure
    ========================================================================== */
 .section {
-  text-align: center;
+  text-align: left;
   background: #f9f9f9;
 }
 .slide {
@@ -150,7 +150,7 @@ p {
 }
 .arrow-up {
   left: 50%;
-  margin-left: -100px;
+  margin-left: 0px;
   border-width: 100px 100px 0px 100px;
   border-color: rgba(0, 153, 153, 0.2) transparent transparent transparent;
   position: absolute;
@@ -166,20 +166,20 @@ p {
   color: rgba(0, 153, 153, 0.5);
 }
 .arrow-up::after {
-  content: "\e682";
-  font-family: 'Pe-icon-7-stroke';
+  content: "\f077";
+  font-family: 'FontAwesome';
   color: #009999;
-  font-size: 152px;
+  font-size: 100px;
   position: relative;
   line-height: 0px;
-  margin-left: -28px;
+  margin-left: 0px;
   margin-top: 0px;
-  top: -50px;
+  top: 0px;
 }
 .arrow-down {
   left: 50%;
   bottom: 0%;
-  margin-left: -100px;
+  margin-left: 0px;
   border-width: 0px 100px 100px 100px;
   border-color: transparent transparent rgba(255, 102, 102, 0.2) transparent;
   position: absolute;
@@ -194,15 +194,15 @@ p {
   color: rgba(255, 102, 102, 0.5);
 }
 .arrow-down::after {
-  content: "\e688";
-  font-family: 'Pe-icon-7-stroke';
+  content: "\f078";
+  font-family: 'FontAwesome';
   color: #ff6666;
-  font-size: 152px;
+  font-size: 100px;
   position: relative;
   line-height: 0px;
-  margin-left: -28px;
+  margin-left: 0px;
   margin-top: 0px;
-  top: 50px;
+  top: 20px;
 }
 .fp-controlArrow {
   margin-top: -100px;
