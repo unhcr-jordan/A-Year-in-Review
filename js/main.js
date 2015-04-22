@@ -45,6 +45,11 @@ $(document).ready(function () {
             if ($('.section[data-anchor=' + anchorLink + ']#intro').length > 0) {
                 $('.arrow-up').hide();
             }
+			
+			if ($('.section[data-anchor=' + anchorLink + ']#contact').length > 0) {
+                $('.arrow-up').hide();
+				$('.arrow-down').hide();
+            }
 
 			// if section has chart call function renderChart deffined at chars-def.js
 			if ($('.section[data-anchor=' + anchorLink + '] .project-info').length > 0) {

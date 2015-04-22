@@ -172,9 +172,9 @@ p {
   font-size: 100px;
   position: relative;
   line-height: 0px;
-  margin-left: -28px;
+  margin-left: -45px;
   margin-top: 0px;
-  top: -20px;
+  top: -80px;
 }
 .arrow-down {
   left: 50%;
@@ -200,9 +200,9 @@ p {
   font-size: 100px;
   position: relative;
   line-height: 0px;
-  margin-left: -28px;
+  margin-left: -45px;
   margin-top: 0px;
-  top: 20px;
+  top: 52px;
 }
 .fp-controlArrow {
   margin-top: -100px;
@@ -545,6 +545,7 @@ ul.items li:nth-child(even) h3 {
 #section-01 .wrap-image.overlay {
   background-color: #000000;
 }
+
 
 #section-02 .wrap-image.overlay:before {
   background: url(../img/img2.jpg) center center no-repeat;
