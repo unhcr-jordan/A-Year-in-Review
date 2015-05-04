@@ -108,7 +108,7 @@ $(document).ready(function () {
     window.addEventListener('load', function() {
 		new FastClick(document.body);
     })
-	
+
 });
 
 // Detect enter keypress to launc site if the link is exist.
