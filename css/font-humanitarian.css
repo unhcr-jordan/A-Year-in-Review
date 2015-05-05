@@ -392,7 +392,7 @@ ul.icons li [class*=" icon-"] {
 .icon-comment:before              { content: "\f075"; }
 .icon-magnet:before               { content: "\f076"; }
 .icon-chevron-up:before           { content: "\f077"; }
-.icon-chevron-down:before         { content: "\f078"; }
+.icon-chevron-down:before         { content: "\f077"; }
 .icon-retweet:before              { content: "\f079"; }
 .icon-shopping-cart:before        { content: "\f07a"; }
 .icon-folder-close:before         { content: "\f07b"; }
