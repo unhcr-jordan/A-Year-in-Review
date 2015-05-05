@@ -194,7 +194,7 @@ p {
   color: rgba(0, 114, 198, 0.5);
 }
 .arrow-down::after {
-  content: "\f078";
+  content: "\f077";
   font-family: 'FontAwesome';
   color: #0072C6;
   font-size: 100px;
