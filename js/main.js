@@ -15,6 +15,11 @@ checkSize = function () {
 }
 
 
+function scrollTo() {
+	$.fn.fullpage.scrollSlider(2, 1);
+	//alert ("Hello");
+}
+
 $(document).ready(function () {
 	// load anchor from DOM
 	var anchors = [];
@@ -42,14 +47,13 @@ $(document).ready(function () {
 				}
 			}
             
-            if ($('.section[data-anchor=' + anchorLink + ']#intro').length > 0) {
-                $('.arrow-up').hide();
+            if ($('.section[data-anchor=' + anchorLink + ']#Iintro').length > 0) {
+				$('.arrow-up').hide();
             }
-			
-			if ($('.section[data-anchor=' + anchorLink + ']#contact').length > 0) {
-                $('.arrow-up').hide();
+            if ($('.section[data-anchor=' + anchorLink + ']#Isection-20').length > 0) {
 				$('.arrow-down').hide();
-            }
+            }			
+			
 
 			// if section has chart call function renderChart deffined at chars-def.js
 			if ($('.section[data-anchor=' + anchorLink + '] .project-info').length > 0) {
